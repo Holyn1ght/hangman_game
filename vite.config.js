@@ -1,3 +1,3 @@
 export default {
-    base: 'hangman_game'
+    base: '/hangman_game/'
 }
