@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #app {
+    @apply flex flex-col items-center justify-center h-screen;
+  }
+
+  .logo {
+    @apply text-3xl sm:text-4xl md:text-6xl font-bold dark:text-white mb-5;
+  }
+
+  .btn-primary {
+    @apply px-2 py-1 bg-slate-200 rounded-md mt-32 dark:text-white hover:enabled:bg-slate-300 dark:bg-indigo-600 dark:hover:enabled:bg-indigo-700 disabled:opacity-20;
+  }
+
+  .placeholder-wrapper {
+    @apply flex flex-row;
+  }
+
+  .letter {
+    @apply mx-1 sm:mx-2 text-2xl sm:text-3xl dark:text-white;
+  }
+
+  .keyboardDiv {
+    @apply flex flex-wrap justify-center gap-1.5 sm:gap-3 lg:gap-4 md:mt-2 ;
+  }
+}
